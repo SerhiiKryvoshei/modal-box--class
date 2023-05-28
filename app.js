@@ -75,7 +75,7 @@ class ModalWindow {
 	closeModal() {
 		// console.log(this);
 
-		detachModalEvents();
+		this.detachModalEvents();
 
 		this.modal.remove("open");
 		this.modal = null;
